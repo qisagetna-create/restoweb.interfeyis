@@ -1,0 +1,6 @@
+{
+  "name": "restoweb.az — Premium Restoran Rezervasiya Sistemi",
+  "description": "Azərbaycanın premium restoranları üçün rəqəmsal rezervasiya və masa idarəetmə platforması.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

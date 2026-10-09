@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-forest: #153D2B;
+    --color-dark: #0B1711;
+    --color-gold: #C3A16A;
+    --color-cream: #F3EBDD;
+    --color-secondary-green: #244B36;
+    --color-ivory: #F8F3E9;
+    --color-muted-beige: #C9C0AF;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    background-color: #0B1711;
+    color: #F8F3E9;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Custom antique gold border utilities */
+.border-gold-subtle {
+  border-color: rgba(195, 161, 106, 0.22);
+}
+
+.border-gold-glow {
+  border-color: rgba(195, 161, 106, 0.45);
+  box-shadow: 0 0 25px -5px rgba(195, 161, 106, 0.15);
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #D4B67F 0%, #C3A16A 50%, #9F7E47 100%);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #F3EBDD 0%, #C3A16A 50%, #E6C894 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Subtle antique parchment noise & lighting */
+.gold-glow {
+  box-shadow: 0 20px 80px -20px rgba(195, 161, 106, 0.18);
+}
+
+.hero-glow {
+  background: radial-gradient(circle at 65% 50%, rgba(36, 75, 54, 0.45) 0%, rgba(21, 61, 43, 0.2) 45%, rgba(11, 23, 17, 0) 70%);
+}
+
+/* Phone screen scrollbar */
+.phone-scroll::-webkit-scrollbar {
+  width: 3px;
+}
+.phone-scroll::-webkit-scrollbar-track {
+  background: #0B1711;
+}
+.phone-scroll::-webkit-scrollbar-thumb {
+  background: rgba(195, 161, 106, 0.3);
+  border-radius: 4px;
+}
